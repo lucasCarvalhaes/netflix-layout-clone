@@ -1,0 +1,61 @@
+@media screen and (max-width: 700px) {
+     :root {
+        --margin-left: 0;
+        --margin-right: 0;
+    }
+    body {
+        width: 100%;
+    }
+    header .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+    }
+    .container nav {
+        padding: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container nav a {
+        padding: 0.2rem;
+    }
+    .current-movie {
+        align-items: center;
+    }
+    .current-movie .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    .current-movie .description {
+        font-size: 0.6rem;
+    }
+    .btn {
+        margin: 2px 0;
+        width: 60vw;
+    }
+    .btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .movies-carousel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .description {
+        width: 70%;
+    }
+}
